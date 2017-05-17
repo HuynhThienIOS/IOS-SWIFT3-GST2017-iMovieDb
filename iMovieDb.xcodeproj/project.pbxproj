@@ -16,6 +16,8 @@
 		27BA02641EC699CE00B0647E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA02631EC699CE00B0647E /* Movie.swift */; };
 		27BA026A1EC7094F00B0647E /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA02691EC7094F00B0647E /* MovieTableViewCell.swift */; };
 		27BA026C1EC70ADF00B0647E /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA026B1EC70ADF00B0647E /* MovieTableViewController.swift */; };
+		27BA026E1ECBF93800B0647E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA026D1ECBF93800B0647E /* MovieDetailViewController.swift */; };
+		27BA02701ECBF96400B0647E /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BA026F1ECBF96400B0647E /* HelperMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		27BA02631EC699CE00B0647E /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		27BA02691EC7094F00B0647E /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		27BA026B1EC70ADF00B0647E /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		27BA026D1ECBF93800B0647E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		27BA026F1ECBF96400B0647E /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				27BA026B1EC70ADF00B0647E /* MovieTableViewController.swift */,
+				27BA026D1ECBF93800B0647E /* MovieDetailViewController.swift */,
+				27BA026F1ECBF96400B0647E /* HelperMethods.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -290,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27BA026C1EC70ADF00B0647E /* MovieTableViewController.swift in Sources */,
+				27BA026E1ECBF93800B0647E /* MovieDetailViewController.swift in Sources */,
+				27BA02701ECBF96400B0647E /* HelperMethods.swift in Sources */,
 				27BA02351EC6998500B0647E /* AppDelegate.swift in Sources */,
 				27BA02641EC699CE00B0647E /* Movie.swift in Sources */,
 				27BA026A1EC7094F00B0647E /* MovieTableViewCell.swift in Sources */,

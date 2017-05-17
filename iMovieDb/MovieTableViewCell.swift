@@ -28,12 +28,7 @@ class MovieTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
-        URLSession.shared.dataTask(with: url) {
-            (data, response, error) in
-            completion(data, response, error)
-            }.resume()
-    }
+    
     
     func setImage(url: URL){
         print("Download Started")
@@ -49,8 +44,8 @@ class MovieTableViewCell: UITableViewCell {
     
     func renderMovieCell(movie: Movie){
         setImage(url: URL(string: movie.getPosterPath())!)
-        ratingLabel.text = String(movie.voteAverage!)
-        yearLabel.text = movie.releaseDate
+        ratingLabel.text = "Rating: " + String(movie.voteAverage!)
+        yearLabel.text = "Release: " + movie.releaseDate!
         titleLabel.text = movie.title
     }
 }

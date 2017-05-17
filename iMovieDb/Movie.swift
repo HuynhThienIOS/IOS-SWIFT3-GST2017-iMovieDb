@@ -39,6 +39,14 @@ class Movie {
             return "\(imageURLPrefix)/w185\(posterPath!)"
         }
     }
+    
+    func getBackdropPath() -> String {
+        if backdropPath == nil {
+            return "https://www.themoviedb.org/assets/static_cache/41bdcf10bbf6f84c0fc73f27b2180b95/images/v4/logos/91x81.png"
+        } else {
+            return "\(imageURLPrefix)/w780\(backdropPath!)"
+        }
+    }
 }
 
 class MovieCollection {
