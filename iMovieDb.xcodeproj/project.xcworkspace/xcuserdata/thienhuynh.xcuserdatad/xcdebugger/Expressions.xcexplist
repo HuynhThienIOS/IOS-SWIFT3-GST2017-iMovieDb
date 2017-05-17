@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MovieTableViewController.viewDidLoad() -&gt; ():MovieTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MovieCollection.fetch(page : Int) -&gt; [Movie]:Movie.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "movies">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MovieCollection.fetch() -&gt; ():Movie.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Movie.releaseDateString.getter:Movie.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "releaseDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MovieTableViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:MovieTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "movies">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
