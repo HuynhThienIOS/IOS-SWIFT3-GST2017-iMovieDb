@@ -20,7 +20,9 @@ class MovieTableViewController: UITableViewController {
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        movies = movieColletion.fetch(page: 1)
+        //DispatchQueue.main.async {
+            self.movies = self.movieColletion.fetch(page: 1)
+        //}
     }
     
     override func didReceiveMemoryWarning() {
